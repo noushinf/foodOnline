@@ -1,0 +1,4 @@
+python -m venv env
+source env /Scripts/activate
+pip install django
+django-admin startproject foodOnline_main .

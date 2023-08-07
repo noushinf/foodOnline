@@ -2,3 +2,20 @@ python -m venv env
 source env /Scripts/activate
 pip install django
 django-admin startproject foodOnline_main .
+code .
+
+--
+git
+---
+git config --global user.name "Noushin forouzandehfar"
+ git config --global user.email noushinforouzande@gmail.com
+git init
+git add -A
+ git commit -m "fist commit"
+git branch -M main
+ git remote add origin https://github.com/noushinf/foodOnline.git
+git push -u origin main
+--------------
+python manage.py collectstatic
+---
+git status

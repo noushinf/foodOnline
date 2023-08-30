@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'foodOnline_main',
     'accounts',
+    'vendor',
 ]
 
 MIDDLEWARE = [
